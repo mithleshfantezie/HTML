@@ -1,0 +1,228 @@
+/* * {
+    outline: 1px dashed #999;
+} */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial';
+}
+
+.box {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.box button {
+    background: transparent;
+    border: 2px solid black;
+    outline: none;
+    margin: 10px 0;
+    height: 50px;
+    width: 250px;
+    font-size: 15px;
+    font-weight: 600;
+    transition: .5s;
+}
+
+.box .admin {
+    border: 3px solid red;
+    color: red;
+    border-radius: 5px;
+}
+
+.box .admin:hover {
+    background: red;
+    color:white;
+    transition: .5s;
+}
+
+.box .user {
+    border: 3px solid blue;
+    color:blue;
+    border-radius: 5px;
+}
+
+.box .user:hover {
+    background: blue;
+    color:white;
+    transition: .5s;
+}
+
+.box button:hover {
+    cursor: pointer;
+}
+
+h2 {
+    margin: -10px;
+    padding: 0px;
+    color: #696464;
+}
+
+h4 {
+    color: #8c8585;
+}
+
+
+.login {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.login form {
+    padding: 15px 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid #999;
+    border-radius: 5px;
+}
+
+label {
+    font-size: 15px;
+    font-weight: 600;
+    padding: 10px 0;
+    color: rgb(49, 45, 45);
+}
+
+
+input[type="number"],input[type="text"], input[type="password"] {
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #999;
+    height: 25px;
+    width: 300px;
+}
+
+input[type="number"]:hover,input[type="number"]:focus,
+input[type="text"]:hover,input[type="text"]:focus,
+input[type="password"]:hover,input[type="password"]:focus {
+    border-bottom: 2px solid blue;
+}
+
+
+.login-btn {
+    background: transparent;
+    border: 2px solid blue;
+    color: blue;
+    border-radius: 5px;
+    outline: none;
+    margin: 30px 0;
+    height: 40px;
+    width: 300px;
+    font-size: 15px;
+    font-weight: 600;
+    transition: .5s;   
+}
+
+.login-btn:hover {
+    background: blue;
+    color: white;
+    cursor: pointer;
+}
+
+.register-btn {
+    background: transparent;
+    border: 2px solid rebeccapurple;
+    color: rebeccapurple;
+    border-radius: 5px;
+    outline: none;
+    margin: 0 0;
+    height: 40px;
+    width: 300px;
+    font-size: 15px;
+    font-weight: 600;
+    transition: .5s;   
+}
+
+.register-btn:hover {
+    background: rebeccapurple;
+    color: white;
+    cursor: pointer;
+}
+
+body nav {
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 75px;
+    background: black;
+    color: white;
+}
+
+
+nav ul {
+    margin: 0;
+    display: flex;
+    height: 100%;
+
+}
+
+nav ul li {
+    display: flex;
+    list-style: none;
+    margin-left: 20px;
+    font-size: 15px;
+    font-weight: 600;
+    height: calc( 100% - 3px );
+    align-items: center;
+    justify-content: center;
+    padding: 0 5px;
+
+}
+
+nav ul li:hover {
+    cursor: pointer;
+    border-bottom: 3px solid white;
+}
+
+nav ul li:active {
+    border-bottom: 3px solid #999;
+
+}
+
+main {
+    height: calc( 100vh - 75px );
+    width: 400px;
+}
+
+
+
+main .cont {
+    margin: 25px 30px;
+    border: 1px solid #999;
+    border-radius: 5px;
+
+}
+
+main .cont .heading {
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #999;
+    color: #fff;
+    font-weight: 600;
+    border-bottom: 1px solid #999;
+}
+
+main .cont .form {
+    padding: 20px 20px;
+}
+
+main .cont .form form {
+    display: flex;
+    flex-direction: column;
+}
+
+
